@@ -11,51 +11,135 @@
     />
     <link rel="stylesheet" href="./src/stylesheet/output.css" />
   </head>
+
   <body>
-    <!-- top banner starts here -->  
-    <div class="top-banner h-15 md:h-12 w-full  bg-pinkish  ">   
-        <div class="bg-[url('/src/assets/bg.png')] bg-[300px_auto] h-full  bg-repeat-x flex items-center justify-center text-center text-white p-5 "> 
-            <p>📢Figma prototype testing just got a whole lot better! Readmore </p>
-          </div>
-          
+    <!-- top banner starts here -->
+    <div class="top-banner h-15 md:h-12 w-full bg-pinkish">
+      <div
+        class="bg-[url('/src/assets/bg.png')] bg-[300px_auto] h-full bg-repeat-x flex items-center justify-center text-center text-white p-5"
+      >
+        <p>📢Figma prototype testing just got a whole lot better! Readmore</p>
+      </div>
     </div>
     <!-- top-banner ends here -->
-    <div class="max-w-[80%] h-auto mx-auto">
+    <div class="max-w-[1180px] h-auto mx-auto p-10  "> 
       <nav class="flex lg:justify-between md:h-20 items-center justify-center">
-        <div class="left-part  lg:w-[25%] object-cover border sm:w-1/2  w-full">
+        <div
+          class="left-part lg:w-[25%] object-cover cursor-pointer sm:w-1/2 w-full"
+        >
           <img src="./src/assets/asset 0.png" alt="logo" />
         </div>
-        <div class="right-part lg:flex items-center justify-between gap-10 hidden   ">
-          <ul class="flex justify-between items-center  gap-5 text-xl font-semibold  ">
-            <li class="relative after:absolute after:w-0  after:bg-red-600 after:bottom-0 after:h-[2px] pb-0.5 after:left-1/2 hover:after:translate-[-50%]   hover:after:w-full after:transition-all after:duration-200 cursor-pointer    "> 
+        <div
+          class="right-part lg:flex items-center justify-between gap-10 hidden"
+        >
+          <ul
+            class="flex justify-between items-center gap-5 text-xl font-semibold"
+          >
+            <li
+              class="relative after:absolute after:w-0 after:bg-red-600 after:bottom-0 after:h-[2px] pb-0.5 after:left-1/2 hover:after:translate-[-50%] hover:after:w-full after:transition-all after:duration-200 cursor-pointer"
+            >
               Product
             </li>
-            <li class="after:absolute after:w-0 relative after:bg-red-500 after:h-0.5 after:left-1/2 after:bottom-0 pb-0.5 hover:after:w-full hover:after:translate-[-50%] after:transition-all after:duration-200 cursor-pointer ease-in-out  ">
+            <li
+              class="after:absolute after:w-0 relative after:bg-red-500 after:h-0.5 after:left-1/2 after:bottom-0 pb-0.5 hover:after:w-full hover:after:translate-[-50%] after:transition-all after:duration-200 cursor-pointer ease-in-out"
+            >
               Customers
             </li>
-            <li class="after:absolute after:w-0 relative after:bg-red-500 after:h-0.5 after:left-1/2 after:bottom-0 pb-0.5 hover:after:w-full hover:after:translate-[-50%] after:transition-all after:duration-200 cursor-pointer ease-in-out  ">Pricing</li>
-            <li class="after:absolute after:w-0 relative after:bg-red-500 after:h-0.5 after:left-1/2 after:bottom-0 pb-0.5 hover:after:w-full hover:after:translate-[-50%] after:transition-all after:duration-200 cursor-pointer ease-in-out  ">Resources</li>
+            <li
+              class="after:absolute after:w-0 relative after:bg-red-500 after:h-0.5 after:left-1/2 after:bottom-0 pb-0.5 hover:after:w-full hover:after:translate-[-50%] after:transition-all after:duration-200 cursor-pointer ease-in-out"
+            >
+              Pricing
+            </li>
+            <li
+              class="after:absolute after:w-0 relative after:bg-red-500 after:h-0.5 after:left-1/2 after:bottom-0 pb-0.5 hover:after:w-full hover:after:translate-[-50%] after:transition-all after:duration-200 cursor-pointer ease-in-out"
+            >
+              Resources
+            </li>
           </ul>
           <div class="account xl:flex items-center justify-center gap-5 hidden">
-            <button class="bg-purple-700 h-10 w-30 rounded-3xl  text-white font-caveat text-xl  cursor-pointer hover:bg-red-500  transition-all duration-300 ">Sign In</button>
-            <button class="bg-purple-700 h-10 w-30 rounded-3xl  text-white font-caveat text-xl cursor-pointer  hover:bg-red-500 transition-all duration-300 ease-in-out ">Sign Up</button>
+            <button
+              class="bg-purple-700 h-10 w-30 rounded-3xl text-white font-caveat text-xl cursor-pointer hover:bg-red-500 transition-all duration-300"
+            >
+              Sign In
+            </button>
+            <button
+              class="bg-purple-700 h-10 w-30 rounded-3xl text-white font-caveat text-xl cursor-pointer hover:bg-red-500 transition-all duration-300 ease-in-out"
+            >
+              Sign Up
+            </button>
           </div>
         </div>
       </nav>
-      <!-- hero section starts here -->
-       <header>
-        <div class="parent-div flex justify-between items-center w-full mt-10 h-120 flex-col lg:flex-row  ">
-          <div class="left-part lg:w-1/2 w-full flex flex-col h-full justify-around gap-5 lg:gap-0 items-center text-center lg:items-start lg:text-start ">
-            <h2 class="font-popins md:text-7xl font-bold text-blue-950 text-4xl   ">Design confidently</h2>
-            <p class="text-2xl italic text-gray-800">UsabilityHub is a remote user research platform that takes the guesswork out of design decisions by validating them with real users.</p>
-            <button class="bg-blue-600 md:w-40 h-10 rounded-3xl text-white font-semibold self-center cursor-pointer w-[60%] ">Getting Started</button>
+      <header>
+        <!-- hero section starts here -->
+        <div class="flex justify-center items-center flex-col h-auto gap-10">
+          <div
+            class="parent-div flex justify-between items-center w-full mt-10 h-full flex-col lg:flex-row"
+          >
+            <div
+              class="left-part lg:w-1/2 w-full flex flex-col h-full justify-around gap-5 lg:gap-0 items-center text-center lg:items-start lg:text-start"
+            >
+              <h2
+                class="font-popins md:text-7xl font-bold text-blue-950 text-4xl"
+              >
+                Design confidently
+              </h2>
+              <p class="text-2xl italic text-gray-800">
+                UsabilityHub is a remote user research platform that takes the
+                guesswork out of design decisions by validating them with real
+                users.
+              </p>
+              <button
+                class="bg-blue-600 md:w-40 h-10 rounded-3xl text-white font-semibold self-center cursor-pointer w-[60%]"
+              >
+                Getting Started
+              </button>
+            </div>
+            <div class="right-part lg:w-1/2 w-full h-full mt-10 md:mt-0">
+              <img
+                src="./src/assets/asset 1.jpeg"
+                alt="hero image"
+                class="h-full object-left object-cover"
+              />
+            </div>
           </div>
-          <div class="right-part lg:w-1/2 w-full h-full mt-10  md:mt-0">
-            <img src="./src/assets/asset 1.jpeg" alt="hero image" class=" h-full object-left  object-cover ">
+          <div>
+            <p class="text-xl text-center font-popins">
+              The world's best companies rely on UsabilityHub to make bettter
+              design decision.
+            </p>
           </div>
         </div>
-       </header>
-      <!-- hero section ends here -->
+
+        <!-- hero section ends here -->
+        <!-- logo section starts here -->
+        <div class="flex items-center justify-between h-auto w-full gap-5 flex-wrap">
+          <img
+            src="./src/assets/asset 2.png"
+            alt=""
+            class="object-contain lg:w-30 md:w-20 w-3/12  " 
+          />
+          <img
+            src="./src/assets/asset 3.png"
+            alt=""
+            class="object-contain lg:w-30 md:w-20 w-3/12  "
+          />
+          <img src="./src/assets/asset 6.png" alt="" class="object-contain lg:w-30 md:w-20 w-3/12     " />
+          <img
+            src="./src/assets/asset 4.png"
+            alt=""
+            class="object-contain lg:w-30 md:w-20 w-3/12    "
+          />
+          <img src="./src/assets/asset 7.svg" alt="" class="object-contain lg:w-30 md:w-20 w-3/12   " />
+          <img
+            src="./src/assets/asset 5.png"
+            alt=""
+            class="object-contain lg:w-30  md:w-20 w-3/12 "
+          />
+          <img src="./src/assets/asset 8.png" alt="" class="object-contain lg:w-30 md:w-20 w-3/12   " />
+        </div>
+        <!-- logo section ends here -->
+      </header>
     </div>
   </body>
 </html>
