@@ -14,8 +14,8 @@
   <body>
     <!-- top banner starts here -->  
     <div class="top-banner h-12 w-full  bg-pinkish  ">   
-        <div class="h-full w- bg-[url('/src/assets/bg.png')] bg-contain bg-repeat bg-w-[300px] "> 
-            <h1 class="text-white text-4xl font-bold text-center pt-20">Full Image with Repeat</h1>
+        <div class="bg-[url('/src/assets/bg.png')] bg-[300px_auto] h-full  bg-repeat-x flex items-center justify-center text-center text-white  "> 
+            <p>📢Figma prototype testing just got a whole lot better! Readmore </p>
           </div>
           
     </div>
@@ -25,23 +25,37 @@
         <div class="left-part w-[25%] object-cover">
           <img src="./src/assets/asset 0.png" alt="logo" />
         </div>
-        <div class="right-part">
-          <ul class="flex justify-between items-center">
-            <li class="flex items-center justify-center font-winky gap-5">
+        <div class="right-part md:flex items-center justify-between gap-10 hidden   ">
+          <ul class="flex justify-between items-center  gap-5 text-xl font-semibold  ">
+            <li class="relative after:absolute after:w-0  after:bg-red-600 after:bottom-0 after:h-[2px] pb-0.5 after:left-1/2 hover:after:translate-[-50%]   hover:after:w-full after:transition-all after:duration-200 cursor-pointer    "> 
               Product
             </li>
-            <li class="flex items-center justify-center font-winky gap-5">
+            <li class="after:absolute after:w-0 relative after:bg-red-500 after:h-0.5 after:left-1/2 after:bottom-0 pb-0.5 hover:after:w-full hover:after:translate-[-50%] after:transition-all after:duration-200 cursor-pointer ease-in-out  ">
               Customers
             </li>
-            <li class="flex items-center justify-center gap-5">Pricing</li>
-            <li class="flex items-center justify-center gap-5">Resources</li>
+            <li class="after:absolute after:w-0 relative after:bg-red-500 after:h-0.5 after:left-1/2 after:bottom-0 pb-0.5 hover:after:w-full hover:after:translate-[-50%] after:transition-all after:duration-200 cursor-pointer ease-in-out  ">Pricing</li>
+            <li class="after:absolute after:w-0 relative after:bg-red-500 after:h-0.5 after:left-1/2 after:bottom-0 pb-0.5 hover:after:w-full hover:after:translate-[-50%] after:transition-all after:duration-200 cursor-pointer ease-in-out  ">Resources</li>
           </ul>
-          <div class="account">
-            <button></button>
-            <button></button>
+          <div class="account flex items-center justify-center gap-5 ">
+            <button class="bg-purple-700 h-10 w-30 rounded-3xl  text-white font-caveat text-xl  cursor-pointer hover:bg-red-500  transition-all duration-300 ">Sign In</button>
+            <button class="bg-purple-700 h-10 w-30 rounded-3xl  text-white font-caveat text-xl cursor-pointer  hover:bg-red-500 transition-all duration-300 ease-in-out ">Sign Up</button>
           </div>
         </div>
       </nav>
+      <!-- hero section starts here -->
+       <header>
+        <div class="parent-div flex justify-between items-center md:w-full mt-10 h-120  ">
+          <div class="left-part md:w-1/2 w-full flex flex-col h-full justify-around ">
+            <h2 class="font-popins md:text-7xl font-bold text-blue-950 ">Design confidently</h2>
+            <p class="text-2xl italic text-gray-800">UsabilityHub is a remote user research platform that takes the guesswork out of design decisions by validating them with real users.</p>
+            <button class="bg-blue-600 w-40 h-10 rounded-3xl text-white font-semibold self-center cursor-pointer ">Getting Started</button>
+          </div>
+          <div class="right-part md:w-1/2 w-full h-full">
+            <img src="./src/assets/asset 1.jpeg" alt="hero image" class=" h-full object-left  object-cover ">
+          </div>
+        </div>
+       </header>
+      <!-- hero section ends here -->
     </div>
   </body>
 </html>
