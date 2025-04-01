@@ -1,0 +1,16 @@
+@import "tailwindcss";
+/* @import "tailwindcss"; 2nd process */
+
+:root{
+
+    --pinkish:  #e74694;
+   }
+.bg-pinkish{
+    background-color:var(--pinkish);
+}
+@theme{
+    --font-popins:"Poppins", sans-serif;
+    --font-winky:"Winky Sans", sans-serif;
+    --font-caveat:"Caveat", cursive;
+    --bg-pinkish: var(--pinkish)
+}
